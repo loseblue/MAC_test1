@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A38F54E6158387DC000EFB23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38F54E5158387DC000EFB23 /* UIKit.framework */; };
+		A38F54E8158387DC000EFB23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38F54E7158387DC000EFB23 /* Foundation.framework */; };
+		A38F54EA158387DC000EFB23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38F54E9158387DC000EFB23 /* CoreGraphics.framework */; };
+		A38F54F0158387DC000EFB23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A38F54EE158387DC000EFB23 /* InfoPlist.strings */; };
+		A38F54F2158387DD000EFB23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F54F1158387DC000EFB23 /* main.m */; };
+		A38F54F6158387DD000EFB23 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F54F5158387DD000EFB23 /* BIDAppDelegate.m */; };
+		A38F54F9158387DD000EFB23 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F54F8158387DD000EFB23 /* BIDViewController.m */; };
+		A38F54FC158387DD000EFB23 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38F54FA158387DD000EFB23 /* BIDViewController.xib */; };
+		A38F550315839C0A000EFB23 /* Calculator_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A38F550215839C0A000EFB23 /* Calculator_57x57.png */; };
+		A38F550515839D7C000EFB23 /* Calculator_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A38F550415839D7C000EFB23 /* Calculator_114x114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A38F54E1158387DC000EFB23 /* hello wrold 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello wrold 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38F54E5158387DC000EFB23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A38F54E7158387DC000EFB23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A38F54E9158387DC000EFB23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A38F54ED158387DC000EFB23 /* hello wrold 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hello wrold 2-Info.plist"; sourceTree = "<group>"; };
+		A38F54EF158387DC000EFB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A38F54F1158387DC000EFB23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A38F54F3158387DD000EFB23 /* hello wrold 2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello wrold 2-Prefix.pch"; sourceTree = "<group>"; };
+		A38F54F4158387DD000EFB23 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		A38F54F5158387DD000EFB23 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		A38F54F7158387DD000EFB23 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		A38F54F8158387DD000EFB23 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		A38F54FB158387DD000EFB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		A38F550215839C0A000EFB23 /* Calculator_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calculator_57x57.png; sourceTree = "<group>"; };
+		A38F550415839D7C000EFB23 /* Calculator_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calculator_114x114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38F54DE158387DC000EFB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38F54E6158387DC000EFB23 /* UIKit.framework in Frameworks */,
+				A38F54E8158387DC000EFB23 /* Foundation.framework in Frameworks */,
+				A38F54EA158387DC000EFB23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38F54D6158387DC000EFB23 = {
+			isa = PBXGroup;
+			children = (
+				A38F550415839D7C000EFB23 /* Calculator_114x114.png */,
+				A38F550215839C0A000EFB23 /* Calculator_57x57.png */,
+				A38F54EB158387DC000EFB23 /* hello wrold 2 */,
+				A38F54E4158387DC000EFB23 /* Frameworks */,
+				A38F54E2158387DC000EFB23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A38F54E2158387DC000EFB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38F54E1158387DC000EFB23 /* hello wrold 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38F54E4158387DC000EFB23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A38F54E5158387DC000EFB23 /* UIKit.framework */,
+				A38F54E7158387DC000EFB23 /* Foundation.framework */,
+				A38F54E9158387DC000EFB23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A38F54EB158387DC000EFB23 /* hello wrold 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A38F54F4158387DD000EFB23 /* BIDAppDelegate.h */,
+				A38F54F5158387DD000EFB23 /* BIDAppDelegate.m */,
+				A38F54F7158387DD000EFB23 /* BIDViewController.h */,
+				A38F54F8158387DD000EFB23 /* BIDViewController.m */,
+				A38F54FA158387DD000EFB23 /* BIDViewController.xib */,
+				A38F54EC158387DC000EFB23 /* Supporting Files */,
+			);
+			path = "hello wrold 2";
+			sourceTree = "<group>";
+		};
+		A38F54EC158387DC000EFB23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A38F54ED158387DC000EFB23 /* hello wrold 2-Info.plist */,
+				A38F54EE158387DC000EFB23 /* InfoPlist.strings */,
+				A38F54F1158387DC000EFB23 /* main.m */,
+				A38F54F3158387DD000EFB23 /* hello wrold 2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38F54E0158387DC000EFB23 /* hello wrold 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38F54FF158387DD000EFB23 /* Build configuration list for PBXNativeTarget "hello wrold 2" */;
+			buildPhases = (
+				A38F54DD158387DC000EFB23 /* Sources */,
+				A38F54DE158387DC000EFB23 /* Frameworks */,
+				A38F54DF158387DC000EFB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello wrold 2";
+			productName = "hello wrold 2";
+			productReference = A38F54E1158387DC000EFB23 /* hello wrold 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38F54D8158387DC000EFB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A38F54DB158387DC000EFB23 /* Build configuration list for PBXProject "hello wrold 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A38F54D6158387DC000EFB23;
+			productRefGroup = A38F54E2158387DC000EFB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38F54E0158387DC000EFB23 /* hello wrold 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38F54DF158387DC000EFB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38F54F0158387DC000EFB23 /* InfoPlist.strings in Resources */,
+				A38F54FC158387DD000EFB23 /* BIDViewController.xib in Resources */,
+				A38F550315839C0A000EFB23 /* Calculator_57x57.png in Resources */,
+				A38F550515839D7C000EFB23 /* Calculator_114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38F54DD158387DC000EFB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38F54F2158387DD000EFB23 /* main.m in Sources */,
+				A38F54F6158387DD000EFB23 /* BIDAppDelegate.m in Sources */,
+				A38F54F9158387DD000EFB23 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A38F54EE158387DC000EFB23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38F54EF158387DC000EFB23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A38F54FA158387DD000EFB23 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38F54FB158387DD000EFB23 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38F54FD158387DD000EFB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A38F54FE158387DD000EFB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38F5500158387DD000EFB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hello wrold 2/hello wrold 2-Prefix.pch";
+				INFOPLIST_FILE = "hello wrold 2/hello wrold 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A38F5501158387DD000EFB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hello wrold 2/hello wrold 2-Prefix.pch";
+				INFOPLIST_FILE = "hello wrold 2/hello wrold 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38F54DB158387DC000EFB23 /* Build configuration list for PBXProject "hello wrold 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38F54FD158387DD000EFB23 /* Debug */,
+				A38F54FE158387DD000EFB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38F54FF158387DD000EFB23 /* Build configuration list for PBXNativeTarget "hello wrold 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38F5500158387DD000EFB23 /* Debug */,
+				A38F5501158387DD000EFB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38F54D8158387DC000EFB23 /* Project object */;
+}

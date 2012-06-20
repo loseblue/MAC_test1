@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3E267D7158314130091942C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E267D6158314130091942C /* Foundation.framework */; };
+		A3E267DA158314130091942C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E267D9158314130091942C /* main.m */; };
+		A3E267DE158314130091942C /* hello_world.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A3E267DD158314130091942C /* hello_world.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3E267D0158314130091942C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A3E267DE158314130091942C /* hello_world.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3E267D2158314130091942C /* hello_world */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_world; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E267D6158314130091942C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3E267D9158314130091942C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3E267DC158314130091942C /* hello_world-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello_world-Prefix.pch"; sourceTree = "<group>"; };
+		A3E267DD158314130091942C /* hello_world.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = hello_world.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3E267CF158314130091942C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E267D7158314130091942C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3E267C7158314130091942C = {
+			isa = PBXGroup;
+			children = (
+				A3E267D8158314130091942C /* hello_world */,
+				A3E267D5158314130091942C /* Frameworks */,
+				A3E267D3158314130091942C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E267D3158314130091942C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E267D2158314130091942C /* hello_world */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E267D5158314130091942C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3E267D6158314130091942C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3E267D8158314130091942C /* hello_world */ = {
+			isa = PBXGroup;
+			children = (
+				A3E267D9158314130091942C /* main.m */,
+				A3E267DD158314130091942C /* hello_world.1 */,
+				A3E267DB158314130091942C /* Supporting Files */,
+			);
+			path = hello_world;
+			sourceTree = "<group>";
+		};
+		A3E267DB158314130091942C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E267DC158314130091942C /* hello_world-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3E267D1158314130091942C /* hello_world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E267E1158314130091942C /* Build configuration list for PBXNativeTarget "hello_world" */;
+			buildPhases = (
+				A3E267CE158314130091942C /* Sources */,
+				A3E267CF158314130091942C /* Frameworks */,
+				A3E267D0158314130091942C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_world;
+			productName = hello_world;
+			productReference = A3E267D2158314130091942C /* hello_world */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3E267C9158314130091942C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A3E267CC158314130091942C /* Build configuration list for PBXProject "hello_world" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3E267C7158314130091942C;
+			productRefGroup = A3E267D3158314130091942C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E267D1158314130091942C /* hello_world */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3E267CE158314130091942C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E267DA158314130091942C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3E267DF158314130091942C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A3E267E0158314130091942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3E267E2158314130091942C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hello_world/hello_world-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3E267E3158314130091942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hello_world/hello_world-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3E267CC158314130091942C /* Build configuration list for PBXProject "hello_world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E267DF158314130091942C /* Debug */,
+				A3E267E0158314130091942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E267E1158314130091942C /* Build configuration list for PBXNativeTarget "hello_world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E267E2158314130091942C /* Debug */,
+				A3E267E3158314130091942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3E267C9158314130091942C /* Project object */;
+}
