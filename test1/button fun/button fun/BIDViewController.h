@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface BIDViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *statusText;
+
+@property (weak, nonatomic) IBOutlet UIButton *buttonSame;
+@property (weak, nonatomic) IBOutlet UIButton *buttonPressed;
 
 @end
